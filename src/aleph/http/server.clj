@@ -3,7 +3,7 @@
     [aleph.http.core :as http]
     [aleph.netty :as netty]
     [aleph.flow :as flow]
-    [byte-streams :as bs]
+    [byte-streams.core :as bs]
     [clojure.tools.logging :as log]
     [clojure.string :as str]
     [manifold.deferred :as d]

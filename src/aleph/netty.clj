@@ -1,7 +1,7 @@
 (ns aleph.netty
   (:refer-clojure :exclude [flush])
   (:require
-    [byte-streams :as bs]
+    [byte-streams.core :as bs]
     [clojure.tools.logging :as log]
     [manifold.deferred :as d]
     [manifold.executor :as e]

@@ -8,7 +8,7 @@
     [manifold.deferred :as d]
     [manifold.stream :as s]
     [manifold.executor :as ex]
-    [byte-streams :as bs]
+    [byte-streams.core :as bs]
     [clojure.edn :as edn]
     ;; leave this dependency to make sure that HeaderMap is already compiled
     [aleph.http.core :as http])

@@ -6,7 +6,7 @@
     [clojure.tools.logging :as log]
     [clojure.set :as set]
     [clojure.string :as str]
-    [byte-streams :as bs]
+    [byte-streams.core :as bs]
     [byte-streams.graph :as g]
     [potemkin :as p]
     [clojure.java.io :as io])

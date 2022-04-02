@@ -1,6 +1,6 @@
 (ns aleph.http.encoding
   (:require
-    [byte-streams :as bs]
+    [byte-streams.core :as bs]
     [primitive-math :as p])
   (:import
     [io.netty.buffer
